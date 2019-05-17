@@ -1,0 +1,18 @@
+Xterm*transparent: true
+URxvt.font: xft:Monaco-10
+URxvt.letterSpace:0
+Urxvt.perl-ext-common: clipboard
+URxvt.scrollBar:false
+URxvt.urlLauncher: xdg-open
+URxvt.urlButton: 1
+URxvt.underlineURLs: True
+URxvt.clipboard.autocopy:true
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.keysym.Shift-Control-C: perl:clipboard:on_sel_grab
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
+urxvt*font: xft:Terminus:size=12,xft:Inconsolata\ for\ Powerline:size=12
+
+!URxvt.perl-ext-common:selecttion-to-clipboard
+URxvt*transparent: true
+URxvt*shading: 30
